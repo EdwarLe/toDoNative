@@ -5,8 +5,6 @@ export default styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
-      // alignItems: 'center',
-      // justifyContent: 'center',
         paddingHorizontal: 20,
         gap: 20
     },
@@ -16,7 +14,6 @@ export default styles = StyleSheet.create({
         textAlign: 'center',
     },
     containerInput: {
-      // backgroundColor: 'green',
         width: '100%',
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -41,6 +38,26 @@ export default styles = StyleSheet.create({
         padding: 10,
         paddingHorizontal: 20,
         borderRadius: 50
+    },
+    textAlertSuccess : {
+        backgroundColor: '#77e10d',
+        borderRadius: 40,
+        padding:5,
+        textAlign: 'center',
+        color: 'white'
+    },
+    textAlertError : {
+        backgroundColor: 'red',
+        borderRadius: 40,
+        padding:5,
+        textAlign: 'center',
+        color: 'white'
+    },
+    textAlert : {
+        backgroundColor: 'transparent',
+        borderRadius: 40,
+        padding:5,
+        textAlign: 'center',
     },
     textWhite: {
         color: 'white',
